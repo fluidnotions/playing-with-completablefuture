@@ -21,10 +21,10 @@ public abstract class Vehicle {
     Integer fuelEfficiencyConstant = 0;
     ExecutorService executor;
 
-    public Vehicle(Integer cargoSpace, Integer fuelEfficiencyConstant, ExecutorService executor) {
+    public Vehicle(Integer cargoSpace, Integer fuelEfficiencyCoefficient , ExecutorService executor) {
         this.initialCargoCapacity = cargoSpace;
         this.executor = executor;
-        this.fuelEfficiencyConstant = fuelEfficiencyConstant;
+        this.fuelEfficiencyConstant = fuelEfficiencyCoefficient ;
     }
 
     public void addCargo(Integer kgs) {
