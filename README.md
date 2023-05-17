@@ -2,7 +2,7 @@
 
 ## Synopsis
 * A not too realistic in terms of the stats, simulation of a hierarchy of vehicles. 
-* ‘Driving’ around in a thread pool and when various factors that reduce oil and fuel to zero, they exit the thread pool are refueled and placed back in the threadpool.
+* ‘Driving’ around in a thread pool. wWhen various factors reduce oil and fuel to zero, they exit the thread pool are refueled and placed back in the threadpool.
 * The frequency of oil changes or refueling is determined by characteristics of each vehicle instance.
 * The various vehicle types extend an abstract class containing all the common logic.
 * Each vehicle concrete class implements the Runnable interface.
