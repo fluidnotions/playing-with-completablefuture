@@ -18,4 +18,4 @@
 * According to some factors defined in the EntropyAdjustmentFactors interface, together with the current cargo load, mileage and the fuelEfficiencyCoefficient, both fuel and oil is reduced over time. 
 * When either fuel or oil reaches zero an expectation is thrown, causing the instance to exit the thread pool, be refueled or have an oil changed and then it is returned to the threadpool to continue driving.
 * Statistics about the vehicle type, cargo weight, millage and number of oil changes or refuels are printed out periodically
-& The executor is shutdown when the user hits enter in the terminal
+* The executor is shutdown when the user hits enter in the terminal
