@@ -1,0 +1,93 @@
+The numbers aren't very realistic. Tweaking the EntropyAdjustmentFactors would be required.
+
+Vehicle type: Truck.
+Millage: 30000.
+Current Cargo: 2385 kgs.
+Refuel count: 1.
+Oil change count: 1.
+
+Vehicle type: Truck.
+Millage: 32000.
+Current Cargo: 2385 kgs.
+Refuel count: 1.
+Oil change count: 1.
+
+Attempting to load 244kg cargo to Truck
+
+Vehicle type: ElectricCar.
+Millage: 52000.
+Current Cargo: 432 kgs.
+Refuel count: 0.
+Oil change count: 0.
+
+Vehicle type: Truck.
+Millage: 34000.
+Current Cargo: 2629 kgs.
+Refuel count: 1.
+Oil change count: 1.
+
+Vehicle type: ElectricCar.
+Millage: 56000.
+Current Cargo: 432 kgs.
+Refuel count: 0.
+Oil change count: 0.
+
+Attempting to load 17kg cargo to ElectricCar
+
+Vehicle (Car) added back to thread pool, after oil change
+
+Vehicle type: Truck.
+Millage: 36000.
+Current Cargo: 2629 kgs.
+Refuel count: 1.
+Oil change count: 1.
+
+Vehicle (Truck) added back to thread pool, after oil change
+
+Vehicle type: ElectricCar.
+Millage: 60000.
+Current Cargo: 449 kgs.
+Refuel count: 0.
+Oil change count: 0.
+
+Vehicle (Truck) added back to thread pool, after refuel
+
+Vehicle type: ElectricCar
+Cargo addition, exceeds current vehicle's capacity by 360 kgs.
+Cargo load rejected.
+(Vehicle capacity: 500 kgs.)
+
+Attempting to load 89kg cargo to ElectricCar
+
+Vehicle type: Car.
+Millage: 104000.
+Current Cargo: 100 kgs.
+Refuel count: 0.
+Oil change count: 1.
+
+Vehicle type: ElectricCar.
+Millage: 64000.
+Current Cargo: 449 kgs.
+Refuel count: 0.
+Oil change count: 0.
+
+Vehicle type: Truck.
+Millage: 40000.
+Current Cargo: 2629 kgs.
+Refuel count: 2.
+Oil change count: 2.
+
+Vehicle type: ElectricCar
+Cargo addition, exceeds current vehicle's capacity by 339 kgs.
+Cargo load rejected.
+(Vehicle capacity: 500 kgs.)
+
+Attempting to load 110kg cargo to ElectricCar
+
+Vehicle type: Truck.
+Millage: 42000.
+Current Cargo: 2629 kgs.
+Refuel count: 2.
+Oil change count: 2.
+
+Vehicle (ElectricCar) added back to thread pool, after oil change
